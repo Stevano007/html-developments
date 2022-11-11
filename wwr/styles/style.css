@@ -182,6 +182,46 @@ nav{display: flex;
     grid-column: 8/10;
     grid-row: 2/3;
 }  
+#headline{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.headline-img{
+    grid-column:1/2;
+    align-self: center;
+
+}
+.headline-text{
+    grid-column: 2/3;
+    font-size: 2em;
+}
+
+#river-grid{
+    display:grid;
+    margin-top: 10rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 80px;
+}
+.idaho{
+    grid-column: 1/3;
+    grid-row: 1/3;  
+}
+.utah{
+    grid-column: 3/5;
+    grid-row: 1/3;
+}
+.arizona{
+    grid-column: 2/4;
+}
+#river-grid p{
+    font-size: 1.5em;
+    padding: 20px;
+    box-shadow: 5px 5px 10px #606D5D;
+   
+}
+#river-grid h1{
+    font-size: 2.5em;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
