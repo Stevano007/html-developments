@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Work+Sans:wght@300&display=swap');
+
+header{
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    background-color: #BF1A2F
+}
+.logo{
+    width: 100%;
+}
+#page1{ width: 1280px;
+        height: auto;
+}
+
+nav a {
+    text-align:center;
+    padding: 40px;
+    color: #F7D002;
+    text-decoration: none;
+    
+}
+nav a:hover{
+    background-color: #018E42;
+}
+
+#main-grid
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 840px 640px;
+    grid-gap: 0px;
+}
+
+#welcome-box{
+    grid-column: 1/5;
+    grid-row: 1/2;
+    margin-top: -10px;
+    
+}
+.deadlift{
+    grid-column:1/3;
+    grid-row: 2/3;
+}
+.content-msg{
+    grid-column: 3/5;
+    grid-row:2/3;
+    background-color:#454E9E;
+    
+    
+}
+    
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color:#BF1A2F ;
+    margin-top: 5px;
+}
+body{
+    background-color:white;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    font-family: work sans, Alegreya SC;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family:Alegreya SC, Work sans ;
+}
+.content-msg p{
+    font-size: 34px;
+    margin-left: 10px;
+    
+}
+.content-msg h2{
+    font-family: Alegreya SC ;
+    font-size:50px;
+    margin-left: 20px;
+}
+.centered{
+  margin-top: 200px;
+  grid-area: 1/2/2/4;
+  justify-content: center;
+  justify-self:center ;
+  font-size: 60px;
+  font-style:italic;
+  color:azure;
+  
+}
+footer a:hover{
+    color: #018E42;
+}
+footer a {
+    color: #F7D002;
+    text-decoration: none;
+}
+.social a{
+  margin-inline: 10px;
+}
