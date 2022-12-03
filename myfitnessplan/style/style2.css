@@ -53,6 +53,7 @@ footer a {
 .intro-img{
   grid-row: 1/2;
   grid-column: 1/6;
+  position: relative;
 }
 .intro-msg{
     grid-row: 2/3;
