@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Work+Sans:wght@300&display=swap');
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color:#BF1A2F ;
+    margin-top: 5px;
+}
+
+nav a {
+    text-align:center;
+    padding: 40px;
+    color: #F7D002;
+    text-decoration: none;
+    
+}
+nav a:hover{
+    background-color: #018E42;
+}
+.logo{
+    width: 100%;
+    height: 100%;
+}
+header{
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    background-color: #BF1A2F
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family:Alegreya SC, Work sans ;
+}
+footer a:hover{
+    color: #018E42;
+}
+footer a {
+    color: #F7D002;
+    text-decoration: none;
+}
+.social a{
+  margin-inline: 10px;
+}
+#intro-box {
+    display:grid;
+    grid-template-rows:100% 200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.intro-img{
+  grid-row: 1/2;
+  grid-column: 1/6;
+}
+.intro-msg{
+    grid-row: 2/3;
+    grid-column: 1/7;
+    background-color: #454E9E;
+    margin-top: -200px;
+    margin-bottom: 50px;
+    font-size: 60px;
+    text-align: center;
+    font-style: italic;
+    border: #454E9E;
+    border-radius: 25px;
+}
+.intro-text {
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+#guide-select{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+
+}
+
+
+.gears{ 
+    grid-column: 1/2;
+   
+
+}
+.precautions{
+    grid-column: 2/3;
+   
+}
+.goals{
+    grid-column: 3/4;
+   
+}
+.gears,.precautions,.goals{
+    margin: 200px 0;
+}
+body{
+    background-color:whitesmoke;
+    font-family: work sans, Alegreya SC;
+}
+.box-img{
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #BF1A2F;
+}
+.box-img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
