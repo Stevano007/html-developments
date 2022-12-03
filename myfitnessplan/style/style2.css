@@ -46,22 +46,21 @@ footer a {
 }
 #intro-box {
     display:grid;
-    grid-template-rows:100% 200px;
+    grid-template-rows:1000px 200px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     
 }
 .intro-img{
   grid-row: 1/2;
-  grid-column: 1/6;
-  position: relative;
+  grid-column: 1/7;
+  border-radius: 25px;
 }
 .intro-msg{
     grid-row: 2/3;
     grid-column: 1/7;
     background-color: #454E9E;
-    margin-top: -200px;
-    margin-bottom: 50px;
     font-size: 60px;
+    margin-bottom: -80px;
     text-align: center;
     font-style: italic;
     border: #454E9E;
@@ -106,4 +105,12 @@ body{
 .box-img:hover{
     opacity: .6;
     transform: scale(1.1);
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 100px;
+    font-family: Alegreya SC, Work sans;
+    margin-top: 400px;
+    margin-left: -180px;
 }
