@@ -125,4 +125,23 @@ h1{
     max-width:1600px;
     
 }
-
+#equipment-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 30px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.equip-head{
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+.orderbox{
+    grid-column: 2/3;
+    grid-row:2/9;
+}
+.equipment-content{
+    grid-column:1/2 ;
+    grid-row: 4/10;
+    background-color: gainsboro;
+    
+}
