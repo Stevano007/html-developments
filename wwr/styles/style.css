@@ -33,8 +33,7 @@ body {
     padding: 0;
 }
 header{
-    background-color:#DDF2EB ;
-    display: grid;
+    background-color:#DDF2EB ;    display: grid;
     grid-template-columns: 150px auto;
 }
 nav a:hover{
